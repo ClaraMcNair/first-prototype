@@ -1,3 +1,9 @@
+// Denne første "prototype" forsøger at aflæse hvor "lukket" eller "åben" en pose er. 
+// Dette vurderes efter hvor tæt henholdsvis hænder og fødder er på hinanden.
+// Jo mere lukket posen er jo mere sort bliver det overlagte filer på video outputet
+// samt hastigheden på lyd outputet bliver mere langsom.
+// omvendt jo mere åben en pose er jo mere rødt bliver filteret og lyden afspilles hyrtigere.
+
 let song;
 let video; 
 let poseNet; 
