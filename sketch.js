@@ -66,10 +66,10 @@ function draw() {
        ellipse(x, y, 16, 16);
 
     // filter over video
-    // mængde af rød i RGB-kode sættes efter d4 
+    // mængde af rød i RGB-kode sættes efter d5 
        tint(d5,0,0);   
 
-    // hastighed sættes efter d4
+    // hastighed sættes efter d5
        var speed = map(d5, 0, width, 0, 4);
        song.rate(speed);
      }
